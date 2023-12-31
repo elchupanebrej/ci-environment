@@ -8,12 +8,12 @@ authors = [
 ]
 classifiers = [
   "Development Status :: 4 - Beta",
-  "Framework :: Gherkin",
   "Intended Audience :: Developers",
   "License :: OSI Approved :: MIT License",
   "Operating System :: POSIX",
   "Operating System :: Microsoft :: Windows",
   "Operating System :: MacOS :: MacOS X",
+  "Topic :: Software Development :: Testing",
   "Topic :: Utilities",
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3.8",
@@ -34,10 +34,10 @@ license = {text = "MIT"}
 maintainers = [
   {name = "Konstantin Goloveshko", email = "kostya.goloveshko@gmail.com"}
 ]
-name = "ci-environment"
+name = "cuke-ci-environment"
 requires-python = ">=3.8"
 urls = {Repository = "https://github.com/cucumber/ci-environment"}
-version = "10.0.0"
+version = "0.1.0"
 
 [project.entry-points]
 
